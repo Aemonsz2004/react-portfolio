@@ -1,0 +1,97 @@
+@import '../../vars.css';
+
+.projectSection {
+    margin: 0 200px;
+}
+.projectSection h1 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'outfit';
+    margin-bottom: 37px;
+}
+.projectContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap:  wrap;
+    gap: 15px;
+    margin-bottom: 102px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 18px 24px 0 24px;
+}
+
+.projectCard {
+    width:345px ;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 10px;
+    gap: 20px;
+    background: linear-gradient(180deg, #576CBC 0%, #132A53 100%);
+}
+
+.projectCard p {
+    margin:6px 47px 14px 12px ;
+}
+.projectCard h2 {
+    margin: 26px 0 6px 12px ;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'outfit';
+}
+
+.languageList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 26px ;
+}
+.languageList li {
+    background:#0B2447 ;
+    padding:2px 16px 2px 16px ;
+    border-radius: 100px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.buttonList {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttonList a {
+    text-decoration: none;
+    color: white;
+    background: #576CBC;
+    padding: 2px 22px;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+    .projectSection {
+        margin: 0;
+    }
+    .projectContainer {
+        flex-direction:flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .projectSection h1 {
+        margin-left: 50px;
+    }
+}

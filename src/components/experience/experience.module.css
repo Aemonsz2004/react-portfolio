@@ -1,0 +1,117 @@
+@import '../../vars.css';
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 79px 188px 96px 188px;
+    gap: 14px;
+}
+.container h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 60px;
+}
+.contentLeft {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 38px;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.contentLeft img {
+    display: block;
+    width: 75px;
+    height: 75px;
+
+}
+.contentLeft h2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.experienceImageList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.experienceImageBg {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: var(--color-secondary);
+}
+
+
+.contentRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+}
+.contentRight img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.contentRight h1 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 500;
+}
+.contentRight h3{
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 300;
+}
+.contentRight ul li {
+    margin: 6px 0 0 30px ;
+    font-size: 25px;
+    font-weight: 400;
+}
+.contentRightWrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 17px ;
+    padding: 19px 42px 19px 24px;
+    background: linear-gradient(90deg,
+    #19376D 0%,
+    #19376D00 100%);
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        margin: 61px 24px 24px 61px ;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .contentLeft {
+        width: 100%;
+        justify-content: center;
+    }
+    .contentRight {
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+    }
+}

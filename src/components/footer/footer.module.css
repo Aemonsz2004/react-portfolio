@@ -1,0 +1,50 @@
+@import '../../vars.css';
+
+img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+}
+.wrapperLeft h1 {
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.wrapperLeft h2 {
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.wrapperRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px ;
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
