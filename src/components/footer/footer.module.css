@@ -1,11 +1,11 @@
 @import '../../vars.css';
 
-img {
+.container img {
     width: 50px;
     height: 50px;
     display: block;
 }
-p {
+.container p {
     font-size: 30px;
     font-weight: 400;
 }
@@ -15,6 +15,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 104px;
+    background-color: #19376D;
 }
 .wrapperLeft h1 {
     font-size: 80px;

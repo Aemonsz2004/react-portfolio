@@ -18,11 +18,11 @@
     margin-bottom: 102px;
 }
 
-ul li {
+.projectSection ul li {
     list-style-type: none;
 }
 
-img {
+.projectSection img {
     display: block;
     width: 300px;
     height: 200px;
