@@ -1,19 +1,35 @@
 import styles from './about.module.css'
+
+import {useState} from 'react'
 import backendImage from "../../../assets/about/backend.png";
 import cursorImage from "../../../assets/about/cursor.png";
 import frontendImage from "../../../assets/about/frontend.png";
 import oioiCat1Image from "../../../assets/about/oioi-cat.png";
+import oioiCat2Image from "../../../assets/about/oioi-cat2.png";
+
+
 
 
 const About = () => {
-  return (
+
+    const [currentImage, setCurrentImage] = useState(oioiCat1Image);
+    const handleImage1 = () => {
+        setCurrentImage(oioiCat2Image);
+    }
+    const handleImage2 = () => {
+        setCurrentImage(oioiCat1Image);
+    }
+
+    return (
     <section className={styles.mainContainer}>
         <div className={styles.container}>
             <h1>ABOUT</h1>
             <div className={styles.wrapper}>
                 <img className={styles.imageLeft}
-                    src={oioiCat1Image}
+                    src={currentImage}
                     alt='I miss you'
+                    onMouseEnter={handleImage1}
+                    onMouseLeave={handleImage2}
                     />
                 <div className={styles.rightContent}>
                     <div className={styles.rightContentList}>
