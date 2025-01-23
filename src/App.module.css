@@ -5,6 +5,16 @@
     width: 100%;
     height: 100%;
     color: white;
+    overflow-x: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+        
 }
 
 *::-webkit-scrollbar {
@@ -15,6 +25,4 @@
   scrollbar-width: none;  /* Firefox */
 }
 
-#hero, #about {
-    overflow: hidden;
-}
+
