@@ -24,6 +24,7 @@
         var(--color-primary));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     z-index: 1;
 }
 .heroLeft p {
@@ -40,9 +41,6 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-}
-.heroImage:hover {
-    content: url('../../../assets/hero/nerd.png');
 }
 
 .topBlur {

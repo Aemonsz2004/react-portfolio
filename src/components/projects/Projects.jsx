@@ -1,6 +1,14 @@
 import './projects.module.css'
 import styles from './projects.module.css'
 
+import catmog from '../../../assets/projects/catmog.jpg'
+import catsus from '../../../assets/projects/catsus.jpg'
+import handsomecat from '../../../assets/projects/handsomecat.jpg'
+import mewing from '../../../assets/projects/mewing.png'
+import supersigma from '../../../assets/projects/supersigma.webp'
+import mewingcat from '../../../assets/projects/mewingcat.jpg'
+import mewingmigga from '../../../assets/projects/mewingmigga.webp'
+
 const Projects = () => {
 return (
     <section className={styles.projectSection}>
@@ -10,7 +18,7 @@ return (
         <div className={styles.projectContainer}>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/catmog.jpg'/>
+                <img src={catmog} />
                 <div>
                     <h2>
                         Project A
@@ -42,7 +50,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/catsus.jpg'/>
+                <img src={catsus}/>
                 <div>
                     <h2>
                         Project A
@@ -74,7 +82,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/handsomecat.jpg'/>
+                <img src={handsomecat} />
                 <div>
                     <h2>
                         Project A
@@ -106,7 +114,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/mewing.png'/>
+                <img src={mewing}/>
                 <div>
                     <h2>
                         Project A
@@ -138,7 +146,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/supersigma.webp' alt='super sigma'/>
+                <img src={supersigma} alt='super sigma'/>
                 <div>
                     <h2>
                         Super Sigma
@@ -168,7 +176,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/mewingcat.jpg'/>
+                <img src={mewingcat}/>
                 <div>
                     <h2>
                         Project A
@@ -200,7 +208,7 @@ return (
             </div>
 
             <div className={styles.projectCard}>
-                <img src='../../../assets/projects/mewingmigga.webp'/>
+                <img src={mewingmigga}/>
                 <div>
                     <h2>
                         Project A

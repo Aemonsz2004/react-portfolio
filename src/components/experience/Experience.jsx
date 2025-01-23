@@ -1,5 +1,16 @@
 import styles from './experience.module.css'
 
+import css from '../../../assets/experience/css.png'
+import figma from '../../../assets/experience/Figma.png'
+import html from '../../../assets/experience/html.png'
+import mysql from '../../../assets/experience/icons8-mysql-144.png'
+import java from '../../../assets/experience/java.png'
+import js from '../../../assets/experience/js.png'
+import node from '../../../assets/experience/node.png'
+import react from '../../../assets/experience/react.png'
+import um from '../../../assets/experience/um.png'
+
+
 const Experience = () => {
   return (
     <section>
@@ -9,63 +20,63 @@ const Experience = () => {
                 <div className={styles.contentLeft}>
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/html.png' alt='HTML'></img>
+                            <img src={html} alt='HTML'></img>
                         </div>
                         <h2>HTML</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/css.png' alt='CSS'></img>
+                            <img src={css} alt='CSS'></img>
                         </div>
                         <h2>CSS</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/js.png' alt='Javascript'></img>
+                            <img src={js} alt='Javascript'></img>
                         </div>
                         <h2>Javascript</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/react.png' alt='React'></img>
+                            <img src={react} alt='React'></img>
                         </div>
                         <h2>React</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/node.png' alt='NodeJs'></img>
+                            <img src={node} alt='NodeJs'></img>
                         </div>
                         <h2>NodeJS</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/icons8-mysql-144.png' alt='MySQL'></img>
+                            <img src={mysql} alt='MySQL'></img>
                         </div>
                         <h2>MySQL</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/java.png' alt='NodeJs'></img>
+                            <img src={java} alt='Java'></img>
                         </div>
                         <h2>Java</h2>
                     </div>
 
                     <div className={styles.experienceImageList}>
                         <div className={styles.experienceImageBg}>
-                            <img src='../../../assets/experience/figma.png' alt='Figma'></img>
+                            <img src={figma} alt='Figma'></img>
                         </div>
                         <h2>Figma</h2>
                     </div>
                 </div>
                 <div className={styles.contentRight}>
                     <div className={styles.contentRightWrapper}>
-                        <img src='../../../assets/experience/um.png' alt='um logo'/>
+                        <img src={um} alt='um logo'/>
                         <div>
                             <h2>Frontend Developer</h2>
                             <h3>00/00/2025</h3>
@@ -81,7 +92,7 @@ const Experience = () => {
                     </div>
 
                     <div className={styles.contentRightWrapper}>
-                        <img src='../../../assets/experience/um.png' alt='um logo'/>
+                        <img src={um} alt='um logo'/>
                         <div>
                             <h2>Backend Developer</h2>
                             <h3>00/00/2025</h3>
@@ -97,7 +108,7 @@ const Experience = () => {
                     </div>
 
                     <div className={styles.contentRightWrapper}>
-                        <img src='../../../assets/experience/um.png' alt='um logo'/>
+                        <img src={um} alt='um logo'/>
                         <div>
                             <h2>UI/UX Designer</h2>
                             <h3>00/00/2025</h3>

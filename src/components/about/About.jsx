@@ -1,4 +1,8 @@
 import styles from './about.module.css'
+import backendImage from "../../../assets/about/backend.png";
+import cursorImage from "../../../assets/about/cursor.png";
+import frontendImage from "../../../assets/about/frontend.png";
+import oioiCat1Image from "../../../assets/about/oioi-cat.png";
 
 
 const About = () => {
@@ -8,12 +12,12 @@ const About = () => {
             <h1>ABOUT</h1>
             <div className={styles.wrapper}>
                 <img className={styles.imageLeft}
-                    src='../../../assets/about/oioi-cat.png'
+                    src={oioiCat1Image}
                     alt='I miss you'
                     />
                 <div className={styles.rightContent}>
                     <div className={styles.rightContentList}>
-                        <img src='../../../assets/about/cursor.png' alt='cursor icon'></img>
+                        <img src={cursorImage} alt='cursor icon'></img>
 
                         <div>
                             <h2>
@@ -27,7 +31,7 @@ const About = () => {
 
                     </div>
                     <div className={styles.rightContentList}>
-                        <img src='../../../assets/about/backend.png' alt='backend icon'></img>
+                        <img src={backendImage} alt='backend icon'></img>
                         <div>
                             <h2>
                                 Backend Developer
@@ -39,7 +43,7 @@ const About = () => {
                         
                     </div>
                     <div className={styles.rightContentList}>
-                        <img src='../../../assets/about/frontend.png' alt='frontend icon'></img>
+                        <img src={frontendImage} alt='frontend icon'></img>
                         <div>
                             <h2>
                                 UI Designer

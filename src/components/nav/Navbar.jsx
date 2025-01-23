@@ -1,6 +1,9 @@
 import {useState} from 'react'
 import styles from '../../components/nav/navbar.module.css'
 
+import close from '../../../assets/nav/closeIcon.png';
+import menu from '../../../assets/nav/menuIcon.png';
+
 
 
 const Navbar = () => {
@@ -11,11 +14,11 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <a className={styles.title} href='/'>Portfolio</a>
             <div className={styles.menu}>
-                <img className={styles.menuBtn} 
+                <img className={styles.menuBtn}
                     src={
                         menuOpen
-                            ? "../../../assets/nav/closeIcon.png"
-                            : "../../../assets/nav/menuIcon.png"
+                            ? close
+                            : menu
                             }
                     alt='menuIcon'
                     onClick={()=> {

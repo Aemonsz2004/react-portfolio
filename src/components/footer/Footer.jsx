@@ -1,6 +1,9 @@
 
 import styles from './footer.module.css'
 
+import github from '../../../assets/footer/githubIcon.png';
+import gmail from '../../../assets/footer/gmailIcon.png';
+
 const Footer = () => {
   return (
     <footer className={styles.container}>
@@ -15,21 +18,21 @@ const Footer = () => {
 
         <div className={styles.wrapperRight}>
             <div className={styles.flex}>
-                <img src='../../../assets/footer/gmailIcon.png' alt='icon'/>
+                <img src={gmail} alt='icon'/>
                 <p>
                     aemonsz2525@gmail.com
                 </p>
             </div>
 
             <div className={styles.flex}>
-                <img src='../../../assets/footer/gmailIcon.png' alt='icon'/>
+                <img src={gmail} alt='icon'/>
                 <p>
                     e.abas.546488@umindanao.edu.ph
                 </p>
             </div>
 
             <div className={styles.flex}>
-                <img src='../../../assets/footer/githubIcon.png' alt='icon'/>
+                <img src={github} alt='icon'/>
                 <p>
                     https://github.com/Aemonsz2004
                 </p>
