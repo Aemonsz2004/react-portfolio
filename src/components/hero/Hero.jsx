@@ -10,12 +10,12 @@ import nerd2 from '../../../assets/hero/nerd2.jpg'
 
     const Hero = () => {
 
-        const [currentImage, setCurrentImage] = useState(nerd);
+        const [currentImage, setCurrentImage] = useState(nerd2);
         const handleImage1 = () => {
-            setCurrentImage(nerd2);
+            setCurrentImage(nerd);
         }
         const handleImage2 = () => {
-            setCurrentImage(nerd);
+            setCurrentImage(nerd2);
         }
         return (
             <section className={styles.heroContainer}>
