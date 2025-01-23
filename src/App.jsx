@@ -13,12 +13,25 @@ function App() {
   return (
     <>
       <div className={styles.app}>
+      <section id='navbar'>
         <Navbar />
+      </section>
+      <section id='hero'>
         <Hero />
+      </section>
+      <section id='about'>
         <About />
+      </section>
+      <section id='experience'>
         <Experience />
+      </section>
+      <section id='projects'>
         <Projects />
+      </section>
+      <section id='footer'>
         <Footer />
+      </section>
+        
       </div>
     </>
   )

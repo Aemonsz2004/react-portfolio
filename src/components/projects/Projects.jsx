@@ -11,7 +11,7 @@ import mewingmigga from '../../../assets/projects/mewingmigga.webp'
 
 const Projects = () => {
 return (
-    <section className={styles.projectSection}>
+    <section  className={styles.projectSection}>
     <h1>
             PROJECTS
         </h1>

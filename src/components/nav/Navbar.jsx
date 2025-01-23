@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import styles from '../../components/nav/navbar.module.css'
+import {Link} from 'react-scroll';
 
 import close from '../../../assets/nav/closeIcon.png';
 import menu from '../../../assets/nav/menuIcon.png';
@@ -11,8 +12,8 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     
     return (
-        <nav className={styles.navbar}>
-            <a className={styles.title} href='/'>Portfolio</a>
+        <nav  className={styles.navbar}>
+            <a className={styles.title} href='/'>My Portfolio</a>
             <div className={styles.menu}>
                 <img className={styles.menuBtn}
                     src={
@@ -27,15 +28,15 @@ const Navbar = () => {
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : null}`}
                 >
                     <li>
-                        <a href='/'>About</a>
+                        <a href='/'><Link to="about" smooth={true} duration={500}>About</Link></a>
                     </li>
                     <li>
-                        <a href='/'>Experience</a>
+                        <a href='/'><Link to="experience" smooth={true} duration={500}>Experience</Link></a>
                     </li>
                     <li>
-                        <a href='/'>Projects</a>
+                        <a href='/'><Link to="projects" smooth={true} duration={500}>Projects</Link></a>
                     </li><li>
-                        <a href='/'>Contact</a>
+                        <a href='/'><Link to="footer" smooth={true} duration={500}>Contact</Link></a>
                     </li>
                 </ul>
             </div>

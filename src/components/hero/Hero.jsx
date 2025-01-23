@@ -18,7 +18,7 @@ import nerd2 from '../../../assets/hero/nerd2.jpg'
             setCurrentImage(nerd2);
         }
         return (
-            <section className={styles.heroContainer}>
+            <section  className={styles.heroContainer}>
                 <div className={styles.heroLeft}>
                     <h1>Hi, I&apos;m Emman</h1>
                     <p>I&apos;m an aspiring full-stack developer. Building experience to become one. Reach out if you&apos;d like to learn more!</p>
