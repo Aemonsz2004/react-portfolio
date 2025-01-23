@@ -6,3 +6,15 @@
     height: 100%;
     color: white;
 }
+
+*::-webkit-scrollbar {
+    display: none;
+    }
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#hero, #about {
+    overflow: hidden;
+}

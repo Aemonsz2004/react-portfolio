@@ -1,5 +1,7 @@
 @import '../../vars.css';
 
+
+
 .heroContainer {
     display: flex;
     justify-content: space-between;
@@ -15,6 +17,10 @@
     align-items: start;
     gap: 20px;
     z-index: 1;
+}
+
+.heroLeft h1 {
+    text-align: center;
 }
 .heroLeft h1 {
     font-size: 70px;
@@ -177,5 +183,6 @@
     }
     .heroLeft p {
         margin: 0 40px;
+        text-align: center;
     }
 }
