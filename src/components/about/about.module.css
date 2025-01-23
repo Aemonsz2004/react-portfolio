@@ -15,10 +15,6 @@
     height: auto;
     display: block;
 }
-.imageLeft:hover {
-    content: url(../../../assets/about/oioi-cat\ 2.png);
-}
-
 
 .wrapper {
     display: flex;
