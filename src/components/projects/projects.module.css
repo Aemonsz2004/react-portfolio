@@ -38,8 +38,10 @@
     justify-content: start;
     border-radius: 10px;
     gap: 20px;
-    background: linear-gradient(180deg, #576CBC 0%, #132A53 100%);
+    background: linear-gradient(180deg, #576CBC 0%, #132A53 60%);
 }
+    
+
 
 .projectCard p {
     margin:6px 47px 14px 12px ;
