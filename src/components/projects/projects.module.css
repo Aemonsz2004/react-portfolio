@@ -15,7 +15,7 @@
     align-items: center;
     flex-wrap:  wrap;
     gap: 15px;
-    margin-bottom: 102px;
+    margin: 10%;
 }
 
 .projectSection ul li {
@@ -91,7 +91,6 @@
     .projectContainer {
         flex-direction:flex;
         justify-content: start;
-        margin: 0 5%;
         gap: 30px;
     }
     .projectSection h1 {
