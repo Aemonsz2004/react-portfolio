@@ -17,11 +17,10 @@
     align-items: start;
     gap: 20px;
     z-index: 1;
+    width: auto;
 }
 
-.heroLeft h1 {
-    text-align: center;
-}
+
 .heroLeft h1 {
     font-size: 70px;
     background: linear-gradient(
@@ -173,7 +172,9 @@
     .heroContainer {
         flex-direction: column-reverse;
         margin: 0px 24px 61px 24px ;
-
+    }
+    .heroLeft h1 {
+        text-align: center;
     }
     .heroLeft {
         display: flex;

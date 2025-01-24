@@ -34,8 +34,8 @@ import nerd2 from '../../../assets/hero/nerd2.jpg'
                 </div>
         
                     <img className={styles.heroImage} src={currentImage} onMouseEnter={handleImage1} onMouseLeave={handleImage2} alt='hero-image' ></img>
-                    <div className={styles.topBlur}></div>
-                    <div className={styles.bottomBlur}></div>
+                    {/* <div className={styles.topBlur}></div>
+                    <div className={styles.bottomBlur}></div> */}
             </section>
         )
     }
