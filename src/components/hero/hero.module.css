@@ -4,7 +4,7 @@
 
 .heroContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 200px 12% 0 12%  ;
     gap: 70px;
@@ -17,7 +17,8 @@
     align-items: start;
     gap: 20px;
     z-index: 1;
-    width: auto;
+    width: 40%;
+
 }
 
 
