@@ -182,6 +182,7 @@
         justify-content: center!important;
         align-items: center;
         gap: 33px;
+        width: 100%;
     }
     .heroLeft p {
         margin: 0 40px;
