@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .projectSection {
-    margin: 0 10%;
+    margin: 10% 10%;
 }
 .projectSection h1 {
     font-size: 35px;
