@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .projectSection {
-    margin: 0 200px;
+    margin: 0 10%;
 }
 .projectSection h1 {
     font-size: 35px;
@@ -90,7 +90,8 @@
     }
     .projectContainer {
         flex-direction:flex;
-        justify-content: center;
+        justify-content: start;
+        margin: 0 5%;
         gap: 30px;
     }
     .projectSection h1 {
@@ -98,3 +99,10 @@
     }
 
 }
+
+@media screen and (max-width: 989px ) {
+    .projectContainer {
+        justify-content: center;
+    }
+}
+

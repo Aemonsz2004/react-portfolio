@@ -172,7 +172,7 @@
 @media screen and (max-width:830px) {
     .heroContainer {
         flex-direction: column-reverse;
-        margin: 0px 24px 61px 24px ;
+        margin: 250px 24px 61px 24px ;
     }
     .heroLeft h1 {
         text-align: center;
