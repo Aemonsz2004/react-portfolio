@@ -6,7 +6,6 @@ import close from '../../../assets/nav/closeIcon.png';
 import menu from '../../../assets/nav/menuIcon.png';
 
 
-
 const Navbar = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -28,15 +27,16 @@ const Navbar = () => {
                 <ul className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : null}`}
                 >
                     <li>
-                        <a href='/'><Link to="about" smooth={true} duration={500}>About</Link></a>
+                        <Link  to="about" smooth={true} duration={500}>About</Link>
                     </li>
                     <li>
-                        <a href='/'><Link to="experience" smooth={true} duration={500}>Experience</Link></a>
+                        <Link to="experience" smooth={true} duration={500}>Experience</Link>
                     </li>
                     <li>
-                        <a href='/'><Link to="projects" smooth={true} duration={500}>Projects</Link></a>
-                    </li><li>
-                        <a href='/'><Link to="footer" smooth={true} duration={500}>Contact</Link></a>
+                        <Link to="projects" smooth={true} duration={500}>Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="footer" smooth={true} duration={500}>Contact</Link>
                     </li>
                 </ul>
             </div>
